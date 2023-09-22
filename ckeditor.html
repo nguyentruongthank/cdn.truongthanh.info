@@ -28,10 +28,9 @@
             See https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/quick-start.html#running-a-full-featured-editor-from-cdn
         -->
         <script src="https://cdn.ckeditor.com/ckeditor5/39.0.2/super-build/ckeditor.js"></script>
-        <!--
-            Uncomment to load the Spanish translation
-            <script src="https://cdn.ckeditor.com/ckeditor5/39.0.2/super-build/translations/es.js"></script>
-        -->
+        
+            <script src="https://cdn.ckeditor.com/ckeditor5/39.0.2/super-build/translations/vi.js"></script>
+
         <script>
             // This sample still does not showcase all CKEditor&nbsp;5 features (!)
             // Visit https://ckeditor.com/docs/ckeditor5/latest/features/index.html to browse all the features.
@@ -57,7 +56,7 @@
                     shouldNotGroupWhenFull: true
                 },
                 // Changing the language of the interface requires loading the language file using the <script> tag.
-                // language: 'es',
+                 language: 'vi',
                 list: {
                     properties: {
                         styles: true,
@@ -149,8 +148,8 @@
                 // Do not turn them on unless you read the documentation and know how to configure them and setup the editor.
                 removePlugins: [
                     // These two are commercial, but you can try them out without registering to a trial.
-                    // 'ExportPdf',
-                    // 'ExportWord',
+                     'ExportPdf',
+                     'ExportWord',
                     'CKBox',
                     'CKFinder',
                     'EasyImage',
